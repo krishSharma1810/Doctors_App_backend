@@ -38,7 +38,9 @@ app.all("*", (req, res) => {
 //doctorsapp is a db name that will be created for our application.
 
 mongoose
-  .connect("mongodb://127.0.0.1:27017/doctorsapp")
+  .connect(
+    "mongodb+srv://sharmakrish1810work:jKfBd3pSgWK5EBBd@cluster0.leabciy.mongodb.net/doctors-app?retryWrites=true&w=majority&appName=Cluster0"
+  )
   .then(() => {
     console.log("connected to mongoDB");
   })
