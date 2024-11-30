@@ -36,10 +36,12 @@ app.all("*", (req, res) => {
 //connecting to the mongodb server
 //27017 is a default port number where monogodb server runs
 //doctorsapp is a db name that will be created for our application.
+// 3ymJMN2Jn2sg5lO2 new password mongodb
 
 mongoose
   .connect(
-    "mongodb+srv://sharmakrish1810work:jKfBd3pSgWK5EBBd@cluster0.leabciy.mongodb.net/doctors-app?retryWrites=true&w=majority&appName=Cluster0"
+    "mongodb+srv://sharmakrish1810:3ymJMN2Jn2sg5lO2@cluster0.jlw85.mongodb.net/doctors-app"
+    // "mongodb+srv://sharmakrish1810work:jKfBd3pSgWK5EBBd@cluster0.leabciy.mongodb.net/doctors-app?retryWrites=true&w=majority&appName=Cluster0"
   )
   .then(() => {
     console.log("connected to mongoDB");
