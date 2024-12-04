@@ -12,8 +12,8 @@ const otpModel = require("../models/otp");
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
-    user: "udaydebnath999999@gmail.com", // this is the email that will be used to send the email.
-    pass: "cpsg pyzm egez dkvq", //this is the password that is created in app passwords in gmail setting options.
+    user: "sharmakrish1810work@gmail.com", // this is the email that will be used to send the email.
+    pass: "zaus bksq mrmy oxjz ", //this is the password that is created in app passwords in gmail setting options.
   },
 });
 
